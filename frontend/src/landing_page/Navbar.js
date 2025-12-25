@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -7,13 +8,13 @@ function Navbar() {
       style={{ backgroundColor: "#FFF" }}
     >
       <div className="container p-2">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img
             src="media/images/logo.svg"
             style={{ width: "25%" }}
             alt="Logo"
           />
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,33 +30,33 @@ function Navbar() {
           <div className="d-flex ms-auto" role="search">
             <ul className="navbar-nav mb-lg-0 d-flex align-items-center">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active px-3"
                   aria-current="page"
-                  href="#"
+                  to="/signup"
                 >
                   Signup
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active px-3" href="#">
+                <Link className="nav-link active px-3" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active px-3" href="#">
+                <Link className="nav-link active px-3" to="/product">
                   Product
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active px-3" href="#">
+                <Link className="nav-link active px-3" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active px-3" href="#">
+                <Link className="nav-link active px-3" to="/support">
                   Support
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
