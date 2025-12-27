@@ -1,12 +1,15 @@
 import React from "react";
 
-function AboutPage() {
+import Hero from "./Hero";
+import Team from "./Team";
+
+function PricingPage() {
   return (
-    <div style={{ padding: 40, textAlign: "center" }}>
-      <h2>About</h2>
-      <p>About page placeholder.</p>
-    </div>
+    <>
+      <Hero />
+      <Team />
+    </>
   );
 }
 
-export default AboutPage;
+export default PricingPage;
