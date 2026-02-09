@@ -1,12 +1,18 @@
 import React from "react";
 
-function SupportPage() {
+import Hero from "./Hero";
+import CreateTicket from "./CreateTicket";
+
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+
+function PricingPage() {
   return (
-    <div style={{ padding: 40, textAlign: "center" }}>
-      <h2>Support</h2>
-      <p>Support page placeholder.</p>
-    </div>
+    <>
+      <Hero />
+      <CreateTicket />
+    </>
   );
 }
 
-export default SupportPage;
+export default PricingPage;

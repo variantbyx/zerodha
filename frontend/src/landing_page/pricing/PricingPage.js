@@ -1,11 +1,15 @@
 import React from "react";
+import Hero from "./Hero";
+import Brokerage from "./Brokerage";
+import OpenAccount from "../OpenAccount";
 
 function PricingPage() {
   return (
-    <div style={{ padding: 40, textAlign: "center" }}>
-      <h2>Pricing</h2>
-      <p>Pricing page placeholder.</p>
-    </div>
+    <>
+      <Hero />
+      <OpenAccount />
+      <Brokerage />
+    </>
   );
 }
 
