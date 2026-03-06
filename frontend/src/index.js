@@ -8,6 +8,7 @@ import ProductsPage from "./landing_page/products/ProductsPage";
 import PricingPage from "./landing_page/pricing/PricingPage";
 import SupportPage from "./landing_page/support/SupportPage";
 import NotFound from "./landing_page/NotFound";
+import DemoPage from "./landing_page/DemoPage";
 import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
 
@@ -37,13 +38,18 @@ const routeMap = {
   "/products": ProductsPage,
   "/pricing": PricingPage,
   "/support": SupportPage,
+  "/demo": DemoPage,
 };
 const RouteComponent = routeMap[path] || NotFound;
 
 root.render(
-  <div>
-    <Navbar />
-    <div style={{ padding: 24 }}>{safeElement(RouteComponent)}</div>
-    <Footer />
-  </div>,
+  RouteComponent === DemoPage ? (
+    <DemoPage />
+  ) : (
+    <div>
+      <Navbar />
+      <div style={{ padding: 24 }}>{safeElement(RouteComponent)}</div>
+      <Footer />
+    </div>
+  ),
 );
