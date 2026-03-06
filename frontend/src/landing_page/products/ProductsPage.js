@@ -5,8 +5,6 @@ import Hero from "./Hero";
 import RightSection from "./RightSection";
 import Universe from "./Universe";
 
-import Navbar from "../Navbar";
-import Footer from "../Footer";
 import LeftSection from "./LetfSection";
 
 function PricingPage() {
