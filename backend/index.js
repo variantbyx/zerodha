@@ -243,6 +243,10 @@ app.post("/newOrder", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.json({ status: "ok", message: "Zerodha backend is running" });
+});
+
 // Connect to MongoDB first, then start the server
 mongoose
   .connect(uri)
