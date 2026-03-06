@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 const path = require("path");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
+=======
+if (process.env.NODE_ENV !== "production") {
+  const path = require("path");
+  require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
+}
+>>>>>>> 7e9e80957 (fix: skip dotenv file loading in production (Vercel injects env vars))
 
 const express = require("express");
 const mongoose = require("mongoose");
