@@ -26,9 +26,6 @@ app.use(
 app.use(cookieParser());
 app.use(express.json());
 
-<<<<<<< Updated upstream
-async function start() {
-=======
 app.get("/addHoldings", async (req, res) => {
   try {
     const tempHoldings = [
@@ -165,7 +162,6 @@ app.get("/addHoldings", async (req, res) => {
 });
 
 app.get("/addPositions", async (req, res) => {
->>>>>>> Stashed changes
   try {
     const tempPositions = [
       {
