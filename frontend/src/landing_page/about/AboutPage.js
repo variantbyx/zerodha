@@ -5,10 +5,10 @@ import Team from "./Team";
 
 function PricingPage() {
   return (
-    <>
+    <React.Fragment>
       <Hero />
       <Team />
-    </>
+    </React.Fragment>
   );
 }
 

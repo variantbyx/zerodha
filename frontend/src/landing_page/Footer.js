@@ -7,80 +7,84 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img
+              src="media/images/logo.svg"
+              alt="Zerodha logo"
+              style={{ width: "50%" }}
+            />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
           <div className="col">
             <p>Company</p>
-            <a href="" style={footerLinkStyle}>
+            <a href="/" style={footerLinkStyle}>
               About
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/products" style={footerLinkStyle}>
               Products
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/pricing" style={footerLinkStyle}>
               Pricing
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/referral" style={footerLinkStyle}>
               Referral programme
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/careers" style={footerLinkStyle}>
               Careers
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/zerodha-tech" style={footerLinkStyle}>
               Zerodha.tech
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/press" style={footerLinkStyle}>
               Press & media
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/csr" style={footerLinkStyle}>
               Zerodha cares (CSR)
             </a>
             <br />
           </div>
           <div className="col">
             <p>Support</p>
-            <a href="" style={footerLinkStyle}>
+            <a href="/contact" style={footerLinkStyle}>
               Contact
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/support" style={footerLinkStyle}>
               Support portal
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/zconnect" style={footerLinkStyle}>
               Z-Connect blog
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/charges" style={footerLinkStyle}>
               List of charges
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/downloads" style={footerLinkStyle}>
               Downloads & resources
             </a>
             <br />
           </div>
           <div className="col">
             <p>Account</p>
-            <a href="" style={footerLinkStyle}>
+            <a href="/open-account" style={footerLinkStyle}>
               Open an account
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/fund-transfer" style={footerLinkStyle}>
               Fund transfer
             </a>
             <br />
-            <a href="" style={footerLinkStyle}>
+            <a href="/challenge" style={footerLinkStyle}>
               60 day challenge
             </a>
             <br />

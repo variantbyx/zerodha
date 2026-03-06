@@ -5,11 +5,11 @@ import OpenAccount from "../OpenAccount";
 
 function PricingPage() {
   return (
-    <>
+    <React.Fragment>
       <Hero />
       <OpenAccount />
       <Brokerage />
-    </>
+    </React.Fragment>
   );
 }
 

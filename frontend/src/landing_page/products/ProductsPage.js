@@ -11,7 +11,7 @@ import LeftSection from "./LetfSection";
 
 function PricingPage() {
   return (
-    <>
+    <React.Fragment>
       <Hero />
       <LeftSection
         imageURL="media/images/kite.png"
@@ -57,7 +57,7 @@ function PricingPage() {
         blog.
       </p>
       <Universe />
-    </>
+    </React.Fragment>
   );
 }
 

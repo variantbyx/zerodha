@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,15 +7,15 @@ function Navbar() {
       style={{ backgroundColor: "#FFF" }}
     >
       <div className="container p-2">
-        <Link className="navbar-brand" to="/">
+        <a className="navbar-brand" href="/">
           <img
             src="media/images/logo.svg"
             style={{ width: "25%" }}
             alt="Logo"
           />
-        </Link>
+        </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -24,39 +23,30 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <div className="d-flex ms-auto" role="search">
             <ul className="navbar-nav mb-lg-0 d-flex align-items-center">
               <li className="nav-item">
-                <Link
-                  className="nav-link active px-3"
-                  aria-current="page"
-                  to="/signup"
-                >
-                  Signup
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link active px-3" to="/about">
+                <a className="nav-link active px-3" href="/about">
                   About
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active px-3" to="/product">
+                <a className="nav-link active px-3" href="/products">
                   Product
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active px-3" to="/pricing">
+                <a className="nav-link active px-3" href="/pricing">
                   Pricing
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active px-3" to="/support">
+                <a className="nav-link active px-3" href="/support">
                   Support
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

@@ -7,7 +7,8 @@ function CreateTicket() {
         <h1 className="fs-2">To create a ticket, select a relevant topic</h1>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account
+            Opening
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
@@ -44,7 +45,8 @@ function CreateTicket() {
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account
+            Opening
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
@@ -81,7 +83,8 @@ function CreateTicket() {
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account
+            Opening
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
@@ -118,7 +121,8 @@ function CreateTicket() {
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account
+            Opening
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
@@ -155,7 +159,8 @@ function CreateTicket() {
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account
+            Opening
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
@@ -192,7 +197,8 @@ function CreateTicket() {
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account
+            Opening
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
