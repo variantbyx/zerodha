@@ -9,14 +9,14 @@ import OpenAccount from "../OpenAccount";
 
 function HomePage() {
   return (
-    <>
+    <React.Fragment>
       <Hero />
       <Awards />
       <Stats />
       <Pricing />
       <Education />
       <OpenAccount />
-    </>
+    </React.Fragment>
   );
 }
 

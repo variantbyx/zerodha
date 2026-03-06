@@ -8,10 +8,10 @@ import Footer from "../Footer";
 
 function PricingPage() {
   return (
-    <>
+    <React.Fragment>
       <Hero />
       <CreateTicket />
-    </>
+    </React.Fragment>
   );
 }
 

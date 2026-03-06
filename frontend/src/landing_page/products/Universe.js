@@ -171,7 +171,7 @@ function Universe() {
 
         <div className="col-12 d-flex justify-content-center mt-4 mb-5">
           <button className="p-2 btn btn-primary fs-5" style={{ width: 220 }}>
-            Signup Now
+            Get Started
           </button>
         </div>
       </div>
